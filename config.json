@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://brandguide.asu.edu/sites/default/files/asu_university_horiz_rgb_maroongold_600_0.png",
+    "link": "https://www.asu.edu/",
+    "text": "ASU"
+  },
+  "text": {
+    "more": "",
+    "intro": "",
+    "title": "PI Collaborations Count"
+  },
+  "legend": {
+    "edgeLabel": "Collaboration",
+    "colorLabel": "College",
+    "nodeLabel": "Principle Investigator"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "college",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 8,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "minEdgeSize": 0.5,
+      "maxEdgeSize": 2,
+      "minNodeSize": 0.5,
+      "maxNodeSize": 25
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
